@@ -1,0 +1,56 @@
+# to specify which action should be used
+defined_actions:
+  MSTR-000:
+    - Temperature
+    - Pressure
+    - Enthalpy
+    - Entropy
+    - MassFlow
+    - MolarFlow
+    - VolumetricFlow
+  Pre-Chiller:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  Chiller-1:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  HP Separator:
+    - SeparationPressure
+  Chiller-2:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  Expander-1:
+    - RotationSpeed
+    - OutletPressure
+    - AdiabaticEfficiency
+    - AdiabaticHead
+  LP Separator:
+    - SeparationPressure
+  Chiller-3:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  Condenser:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  HEAT-052:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  Chiller-4:
+    - OutletTemperature
+    - HeatAdded
+    - Efficiency
+  Compressor-1:
+    - RotationSpeed
+    - AdiabaticEfficiency
+    - AdiabaticHead
+  Compressor:
+    - RotationSpeed
+    - OutletPressure
+    - AdiabaticEfficiency
+    - AdiabaticHead

@@ -1,0 +1,54 @@
+# to specify which action should be used
+defined_actions:
+  Fresh Feed:
+    - Temperature
+    - Pressure
+    - MassFlow
+  S-07:
+    - Temperature
+    - Pressure
+    - MassFlow
+  HX-01:
+    - HotTemperature
+    - ColdTemperature
+    - HTC
+    - Efficiency
+  HEAT-044:
+    - HeatAdded
+    - Efficiency
+  COMP-01:
+    - RotationSpeed
+    - OutletPressure
+    - AdiabaticEfficiency
+  Reboiler-01:
+    - PressureDrop
+    - HeatRemoved
+    - Efficiency
+  COOL-017:
+    - OutletTemperature
+    - PressureDrop
+    - Efficiency
+  PUMP:
+    - OutletPressure
+    - Efficiency
+  HX-02:
+    - HotTemperature
+    - ColdTemperature
+    - HTC
+    - Efficiency
+  S-16:
+    - Temperature
+    - Pressure
+    - MassFlow
+  S15:
+    - Temperature
+    - Pressure
+    - MassFlow
+  Reboiler-02:
+    - PressureDrop
+    - HeatRemoved
+    - Efficiency
+  COMP-02:
+    - RotationSpeed
+    - OutletPressure
+    - AdiabaticEfficiency

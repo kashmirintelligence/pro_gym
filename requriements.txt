@@ -1,0 +1,6 @@
+pythonnet
+tabulate
+numpy
+matplotlib
+tqdm
+pyyaml
